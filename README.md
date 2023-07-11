@@ -1,2 +1,7 @@
 # JavaDesignPatternsExamples
-Examples of java designpatterns
+
+
+### To run tests
+`make test`
+#### to clean after runnning tests..
+`make clean`
