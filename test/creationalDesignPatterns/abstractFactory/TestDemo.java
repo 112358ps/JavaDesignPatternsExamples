@@ -6,7 +6,7 @@ import creationalDesignPatterns.abstractFactory.*;
 public class TestDemo {
     public static void main( String args[]){
         
-        System.out.println("creational design pattern========================");
+        System.out.println("\n========================creational design pattern========================");
         System.out.printf("Pattern:: %s Starting tests...\n","AbstractFactory");
 
         Factory modernFactory = new ModernItemsFactory();
@@ -17,6 +17,6 @@ public class TestDemo {
 
         c = victorianFactory.createChair();
         System.out.println(c.getModel());
-        System.out.println("================................ end of testing");
+        System.out.println("================................ end of testing\n");
     }
 }
